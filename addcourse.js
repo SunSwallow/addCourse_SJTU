@@ -1,3 +1,5 @@
+//author   :hezhengbao
+//email    :zb.he.cn@gmail.com
 ONLY_TEACHER_MODE = false
 TEACHER_NAME = '邓大萌'
 
