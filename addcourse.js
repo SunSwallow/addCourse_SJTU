@@ -17,7 +17,7 @@ function isFull(str){
 function clickAdd(lesson_info){
     console.log("选择"+lesson_info[2].textContent);
     lesson_info[8].getElementsByTagName("a")[0].click();
-    sleep(30);
+    sleep(15);
     document.querySelector("button").click()
     clearInterval(pid);
 }
@@ -76,4 +76,4 @@ function flash(){
     console.log('\t\t');
 }
 var flash_times=0;
-pid = setInterval(flash, 60);
+pid = setInterval(flash, 70);
