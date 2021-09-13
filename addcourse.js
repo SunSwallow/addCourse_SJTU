@@ -1,9 +1,8 @@
-//author   :hezhengbao
-//email    :zb.he.cn@gmail.com
+//配置参数
 ONLY_TEACHER_MODE = false
 TEACHER_NAME = '邓大萌'
 
-
+//主体代码
 function sleep(sleepTime) {
 	for(let start = new Date; new Date - start <= sleepTime;) {}
 }
