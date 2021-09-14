@@ -1,8 +1,8 @@
 //配置参数
 PREFERENCE_MODE = false
 
-TEACHER_NAME = 'Mounir Hajli' //目标老师名字
-TIME_AND_PLACE = '星期四'//上课时间地点,设置为空字符串则匹配所有时间
+TEACHER_NAME = '邓大萌' //目标老师名字
+TIME_AND_PLACE = '星期三'//上课时间地点,设置为空字符串则匹配所有时间
 
 //主体代码
 function sleep(sleepTime) {
@@ -76,4 +76,4 @@ function flash(){
     console.log('\t\t');
 }
 var flash_times=0;
-pid = setInterval(flash, 60);
+pid = setInterval(flash, 100);
