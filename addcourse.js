@@ -76,4 +76,4 @@ function flash(){
     console.log('\t\t');
 }
 var flash_times=0;
-pid = setInterval(flash, 100);
+pid = setInterval(flash, 300);
