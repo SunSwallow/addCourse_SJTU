@@ -51,7 +51,7 @@ function addCourse(lessons_tr, only_teacher_mode, only_time_place_mode){
                 return true;
             }
         }else{
-            console.log(teacher+'已满');
+            console.log(teacher+'  '+time_and_place +'   '+ lesson_info[7].textContent+'已满');
         }
     };
     return false;
